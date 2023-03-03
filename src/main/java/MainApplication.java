@@ -37,8 +37,6 @@ public class MainApplication {
         //4、组装 model
         modelInput = build_models(inputCategories, outputCategories, modelInput);
 
-
-
     }
 
     /**
@@ -203,12 +201,6 @@ public class MainApplication {
         return inputData;
     }
 
-
-    /**
-     * 试下这两个给单独的项目配置
-     * $ git config user.name wmsxwdsh
-     * $ git config user.email maxnwaados@icloud.com
-     */
     public static void runMethod() {
 
     }
